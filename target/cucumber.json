@@ -1,0 +1,169 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 139833184,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the home page",
+            "match": {
+              "location": "LoginSteps.verifyUserIsOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14164863599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User can able to login successfully with valid credentials",
+        "description": "",
+        "id": "user-login-on-automation-practice-website;user-can-able-to-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 117355672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1768343586,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects SignIn link",
+            "match": {
+              "location": "LoginSteps.selctSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70333951,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be on the login page",
+            "match": {
+              "location": "LoginSteps.verifyUserIsOnLoginpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 392717173,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter email as \"qamasters@mailinator.com\" and password as \"Password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qamasters@mailinator.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Password1",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.enterLoginCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1483080929,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User selects SignIn",
+            "match": {
+              "location": "LoginSteps.selectSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68961713,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be login successfully",
+            "match": {
+              "location": "LoginSteps.isUserLoggedIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50750156,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see his name as \"QA Masters\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Masters",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.user_should_see_his_name_as_something(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@smoke"
+          },
+          {
+            "line": 9,
+            "name": "@validLogin"
+          }
+        ]
+      }
+    ],
+    "name": "User login on Automation practice website",
+    "description": "As a user\r\nI want to see the login page\r\nSo that I can login successfully",
+    "id": "user-login-on-automation-practice-website",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
