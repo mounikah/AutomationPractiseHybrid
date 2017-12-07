@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 14164863599,
+  "duration": 15859626526,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "LoginSteps.verifyUserIsOnHomePage()"
 });
 formatter.result({
-  "duration": 139833184,
+  "duration": 691954931,
   "status": "passed"
 });
 formatter.scenario({
@@ -87,14 +87,14 @@ formatter.match({
   "location": "LoginSteps.selctSignInLink()"
 });
 formatter.result({
-  "duration": 1768343586,
+  "duration": 2097427556,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyUserIsOnLoginpage()"
 });
 formatter.result({
-  "duration": 70333951,
+  "duration": 499075466,
   "status": "passed"
 });
 formatter.match({
@@ -111,21 +111,21 @@ formatter.match({
   "location": "LoginSteps.enterLoginCredentials(String,String)"
 });
 formatter.result({
-  "duration": 392717173,
+  "duration": 1699209657,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.selectSignIn()"
 });
 formatter.result({
-  "duration": 1483080929,
+  "duration": 1959882420,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.isUserLoggedIn()"
 });
 formatter.result({
-  "duration": 68961713,
+  "duration": 512327259,
   "status": "passed"
 });
 formatter.match({
@@ -138,11 +138,11 @@ formatter.match({
   "location": "LoginSteps.user_should_see_his_name_as_something(String)"
 });
 formatter.result({
-  "duration": 50750156,
+  "duration": 549794396,
   "status": "passed"
 });
 formatter.after({
-  "duration": 117355672,
+  "duration": 2965728107,
   "status": "passed"
 });
 });

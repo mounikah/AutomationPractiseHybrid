@@ -5,6 +5,7 @@ import AutomationPractice.Pages.LoginPage;
 import AutomationPractice.Pages.MyAccountPage;
 import AutomationPractice.Pages.RegistrationPage;
 import AutomationPractice.Utils.BrowserFactory;
+import AutomationPractice.Utils.Utils;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -14,7 +15,6 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 public class LoginSteps {
-
     @Before
     public void setUp(){
         BrowserFactory.startBrowser();
@@ -43,6 +43,7 @@ public class LoginSteps {
 
     @Then("^User should be on the login page$")
     public void verifyUserIsOnLoginpage() {
+     //   Utils.implicitWait();
         loginPage = new LoginPage();
         Assert.assertTrue(loginPage.isUserOnLoginPage());
     }
@@ -72,5 +73,6 @@ public class LoginSteps {
     public void verifyFeedbackMessage(String message){
         Assert.assertEquals(loginPage.getFeedbackMessage(),message);
     }
+
 
 }
